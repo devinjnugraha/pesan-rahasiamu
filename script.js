@@ -7,7 +7,7 @@ const overlay = document.getElementById("overlay");
 function decode() {
   setTimeout(() => {
     let inputValue = atob(input.value);
-    output.innerHTML = inputValue;
+    output.textContent = inputValue;
     input.style.display = "none";
     cariTauBtn.style.display = "none";
     card.style.display = "block";
