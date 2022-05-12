@@ -10,35 +10,55 @@
   <body>
     <!-- Background image -->
     <div
-      class="relative overflow-hidden bg-no-repeat bg-cover h-screen bg-fixed"
+      class="relative bg-no-repeat bg-cover min-h-screen w-screen bg-fixed"
       style="background-position: 50%; background-image: url('img/mochi.jpeg')"
     >
       <div
-        class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
-        style="background-color: rgba(0, 0, 0, 0.7)"
+        class="overflow-hidden bg-fixed min-h-screen flex flex-col justify-center py-10"
+        style="background-color: rgba(0, 0, 0, 0.6)"
       >
         <div class="flex flex-col justify-center items-center h-full w-full">
-          <h3 class="font-medium leading-tight text-3xl mt-0 mb-2 text-white">
+          <h3
+            class="font-medium leading-tight text-3xl mt-0 mb-2 text-purple-400"
+          >
             Pesan Rahasiamu:
           </h3>
-          <div class="flex flex-col items-center justify-center w-5/6">
+          <div class="flex flex-col items-center justify-center w-full">
             <div class="mb-3 w-5/6">
               <textarea
                 class="form-control block w-full px-4 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                 id="input"
-                rows="3"
+                rows="5"
                 placeholder="Your message"
               ></textarea>
             </div>
             <div class="flex space-x-2 justify-center">
               <button
+                onclick="decrypt()"
                 type="button"
+                id="cariTauBtn"
                 data-mdb-ripple="true"
                 data-mdb-ripple-color="light"
-                class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                class="inline-block px-6 py-2.5 bg-purple-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg transition duration-150 ease-in-out"
               >
                 Cari Tau
               </button>
+            </div>
+            <div class="flex justify-center w-5/6">
+              <div
+                id="card"
+                class="block p-4 rounded-lg shadow-lg bg-white w-full hidden"
+              >
+                <p id="output" class="text-gray-700 text-base mb-4"></p>
+                <button
+                  id="kembaliBtn"
+                  onclick="kembali()"
+                  type="button"
+                  class="inline-block px-6 py-2.5 bg-purple-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg transition duration-150 ease-in-out"
+                >
+                  Kembali
+                </button>
+              </div>
             </div>
           </div>
         </div>
