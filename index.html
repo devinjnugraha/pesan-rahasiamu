@@ -6,6 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cari Tau Pesan Rahasiamu!</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
     <!-- Background image -->
@@ -21,10 +39,10 @@
           <h3
             class="font-medium leading-tight text-3xl mt-0 mb-2 text-purple-400"
           >
-            Pesan Rahasiamu:
+            Pesan Rahasiamu
           </h3>
           <div class="flex flex-col items-center justify-center w-full">
-            <div class="mb-3 w-5/6">
+            <div class="mb-3 w-5/6 md:w-3/5">
               <textarea
                 class="form-control block w-full px-4 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                 id="input"
@@ -34,7 +52,7 @@
             </div>
             <div class="flex space-x-2 justify-center">
               <button
-                onclick="decrypt()"
+                onclick="decode()"
                 type="button"
                 id="cariTauBtn"
                 data-mdb-ripple="true"
@@ -44,7 +62,7 @@
                 Cari Tau
               </button>
             </div>
-            <div class="flex justify-center w-5/6">
+            <div class="flex justify-center w-5/6 md:w-3/5">
               <div
                 id="card"
                 class="block p-4 rounded-lg shadow-lg bg-white w-full hidden"
@@ -64,31 +82,6 @@
         </div>
       </div>
     </div>
-    <!-- Background image -->
-
-    <!-- <main class="container mx-auto px-4 h-screen justify-center flex flex-col">
-      <div class="flex flex-col items-center justify-center">
-        <div class="mb-3 w-5/6">
-          <textarea
-            class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-            id="input"
-            rows="3"
-            placeholder="Your message"
-          ></textarea>
-        </div>
-        <div class="flex space-x-2 justify-center">
-          <button
-            type="button"
-            data-mdb-ripple="true"
-            data-mdb-ripple-color="light"
-            class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
-          >
-            Cari Tau
-          </button>
-        </div>
-      </div>
-    </main> -->
-
     <script src="script.js"></script>
   </body>
 </html>

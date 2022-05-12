@@ -3,7 +3,7 @@ const output = document.getElementById("output");
 const cariTauBtn = document.getElementById("cariTauBtn");
 const card = document.getElementById("card");
 
-function decrypt() {
+function decode() {
   let inputValue = atob(input.value);
   output.innerHTML = inputValue;
   input.style.display = "none";
