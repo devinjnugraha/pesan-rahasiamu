@@ -2,4 +2,6 @@
 
 https://devinjnugraha.github.io/pesan-rahasiamu
 
-Hanya Decoder Base64 Biasa
+Sebuah platform untuk mendecode Base64 menjadi plaintext. 
+
+Notes: Hanya decoder Base64 biasa
