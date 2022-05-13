@@ -34,5 +34,5 @@ function showOverlay() {
     setTimeout(() => {
       overlay.classList.toggle("invisible");
     }, 300);
-  }, 2000);
+  }, 1700);
 }

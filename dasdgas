@@ -1,0 +1,91 @@
+[33mcommit aafa0752a55f42a88f4706d3a1aa516960091e55[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: devinjnugraha <devinjn123@gmail.com>
+Date:   Thu May 12 22:37:55 2022 +0700
+
+    MAJOR SECURITY UPDATES
+
+[33mcommit 8b8e2cbeaa664134cd9c996829144704b3311155[m
+Merge: c614cd3 f59738b
+Author: devinjnugraha <devinjn123@gmail.com>
+Date:   Thu May 12 22:31:37 2022 +0700
+
+    fix favicon
+
+[33mcommit c614cd3ce33fc81dce0c72c9916ee4979f79b7ae[m
+Author: devinjnugraha <devinjn123@gmail.com>
+Date:   Thu May 12 22:25:37 2022 +0700
+
+    fix favicon
+
+[33mcommit f59738bd65e178d18efdc09911bc02263daf17f4[m
+Author: devinjnugraha <79150730+devinjnugraha@users.noreply.github.com>
+Date:   Thu May 12 22:22:04 2022 +0700
+
+    delete/ on favicon paths
+
+[33mcommit 88876673c1dab27fbd14e246334474bfb1f177e9[m
+Author: devinjnugraha <79150730+devinjnugraha@users.noreply.github.com>
+Date:   Thu May 12 22:20:35 2022 +0700
+
+    Update README.md
+
+[33mcommit 6c0728c9b2c5fa7f87142f42b1e54feb6b377b44[m
+Author: devinjnugraha <79150730+devinjnugraha@users.noreply.github.com>
+Date:   Thu May 12 22:20:20 2022 +0700
+
+    Update README.md
+
+[33mcommit 5d72ee4d5120161d44cd4963cd17c760fc0ea581[m
+Author: devinjnugraha <devinjn123@gmail.com>
+Date:   Thu May 12 22:19:07 2022 +0700
+
+    add overlay
+
+[33mcommit 3da00f1b0e125a6c0980307eaa800e1322c02074[m
+Author: devinjnugraha <devinjn123@gmail.com>
+Date:   Thu May 12 20:45:39 2022 +0700
+
+    add favicon
+
+[33mcommit 3740756bb9fbbeebba1fbc148d993d6b0153dbf7[m
+Author: devinjnugraha <devinjn123@gmail.com>
+Date:   Thu May 12 14:20:49 2022 +0700
+
+    finalisasi check
+
+[33mcommit e181b6685f2aee990c21c03519fbbd01472f439a[m
+Merge: bf3ed37 ddd4727
+Author: devinjnugraha <devinjn123@gmail.com>
+Date:   Thu May 12 11:39:23 2022 +0700
+
+    Merge branch 'master' of https://github.com/devinjnugraha/pesan-rahasiamu
+
+[33mcommit bf3ed379347625e1fbdd2e101a65b7a95e103f8c[m
+Author: devinjnugraha <devinjn123@gmail.com>
+Date:   Thu May 12 11:39:04 2022 +0700
+
+    see changes
+
+[33mcommit ddd4727fc1653878424da892a6222b8d338b5ca8[m
+Author: devinjnugraha <79150730+devinjnugraha@users.noreply.github.com>
+Date:   Thu May 12 11:28:36 2022 +0700
+
+    Delete CNAME
+
+[33mcommit b82a7e38af63912b7e573ddfb4bb759fb973add6[m
+Author: devinjnugraha <79150730+devinjnugraha@users.noreply.github.com>
+Date:   Thu May 12 11:27:49 2022 +0700
+
+    Create CNAME
+
+[33mcommit c156e1137ec98980b3112312f04b4d9b1a227afc[m
+Author: devinjnugraha <devinjn123@gmail.com>
+Date:   Thu May 12 11:25:59 2022 +0700
+
+    major initial updates
+
+[33mcommit 09ab4c60e13e123713b804a1230e94bdfb901b45[m
+Author: devinjnugraha <79150730+devinjnugraha@users.noreply.github.com>
+Date:   Thu May 12 10:37:37 2022 +0700
+
+    Initial commit
