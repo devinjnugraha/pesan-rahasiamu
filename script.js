@@ -21,9 +21,9 @@ function decode() {
         input.style.display = "none";
         cariTauBtn.style.display = "none";
         card.style.display = "block";
-        window.scrollTo(0, 0);
     }, 300);
     showOverlay();
+    window.scrollTo(0, 0);
 }
 
 function kembali() {
