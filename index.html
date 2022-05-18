@@ -62,12 +62,13 @@
                     </div>
                     <!-- component -->
                     <div
-                        class="fixed flex items-center justify-center top-0 left-0 right-0 bottom-0 bg-black z-50 invisible transition duration-300 opacity-0"
+                        class="fixed flex flex-col items-center justify-center top-0 left-0 right-0 bottom-0 bg-black z-50 transition duration-300 opacity-0 invisible"
                         id="overlay"
                     >
-                        <span class="text-purple-600 block">
+                        <span class="text-purple-600 block mb-2">
                             <i class="fas fa-circle-notch fa-spin fa-5x"></i>
                         </span>
+                        <div class="text-white visible" id="wait-text"></div>
                     </div>
                 </div>
             </div>

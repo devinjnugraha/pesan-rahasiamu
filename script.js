@@ -3,6 +3,7 @@ const output = document.getElementById("output");
 const cariTauBtn = document.getElementById("cariTauBtn");
 const card = document.getElementById("card");
 const overlay = document.getElementById("overlay");
+const waitText = document.getElementById("wait-text");
 
 function decode() {
     setTimeout(() => {
@@ -22,6 +23,7 @@ function decode() {
         cariTauBtn.style.display = "none";
         card.style.display = "block";
     }, 300);
+    waitText.textContent = "Tunggu ya...";
     showOverlay();
     window.scrollTo(0, 0);
 }
@@ -35,6 +37,7 @@ function kembali() {
         card.style.display = "none";
         output.innerHTML = "";
     }, 300);
+    waitText.textContent = "Kembali...";
     showOverlay();
 }
 
@@ -46,5 +49,5 @@ function showOverlay() {
         setTimeout(() => {
             overlay.classList.toggle("invisible");
         }, 300);
-    }, 1700);
+    }, 1200);
 }
